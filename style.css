@@ -43,7 +43,7 @@ body {
   justify-content: end;
   height: 100%;
   width: 56%;
-  background: url(/img/hero.png) no-repeat center center / cover;
+  background: url(https://fv9-2.failiem.lv/down.php?i=guuseu9fp&view) no-repeat center center / cover;
 }
 
 .menu > a {
@@ -81,5 +81,4 @@ body {
 .quemSomos__content > p {
   color: azure;
   text-transform: uppercase;
-  padding: ;
 }
