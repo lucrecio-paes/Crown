@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px 0 20px;
+  display: flex;
+  height: 80vh;
+}
+
+.logo {
+  background-color: #46005c;
+  height: 80vh;
+  width: 250px;
+  padding: 10px;
+}
+
+.logo > h2 {
+  padding: 5px;
+  margin-top: 40px;
+  color: azure;
+  font-size: 22pt;
+  font-weight: 300;
+}
+
+.logo__crown > img{
+    width: 155px;
+    margin: 25px 0 27px 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+  width: 56%;
+  background: url(/img/hero.png) no-repeat center center / cover;
+}
+
+.menu > a {
+  margin-top: 50px;
+  margin-right: 15px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 12pt;
+}
+
+.menu > a:hover {
+  color: #46005c;
+  font-size: 22pt;
+}
+
+.quemSomos {
+  display: flex;
+  margin: 0 20px 0 20px;
+}
+
+.quemSomos__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #46005c;
+}
+
+.quemSomos__content > h2 {
+  font-size: 50pt;
+  font-weight: 900;
+  color: azure;
+}
+
+.quemSomos__content > p {
+  color: azure;
+  text-transform: uppercase;
+  padding: ;
+}
